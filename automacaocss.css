@@ -1,0 +1,630 @@
+﻿@media (max-width: 480px){
+  body{ background-color: #708090;  color: white; width:100%;height:100%; margin:auto;}
+}
+
+#wrapper {
+   position: center;
+    padding-top: 0px;                           
+    width: 610px;
+    height: 1200px;
+ margin-right: auto;
+  margin-top: 0;
+  margin-left: auto;
+        font-size: 20px;
+        color: RosyBrown;
+        text-align: center;
+        font-family: arial;
+        background-color: #DCDCDC; 
+        text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+      border-radius: 35px;
+ box-shadow: -5px -10px 30px #900, 6px 9px 15px #090;
+-webkit-box-shadow: -5px -10px 30px #900, 6px 9px 15px #090;
+-moz-box-shadow: -5px -10px 30px #900, 6px 9px 15px #090;
+ border: 10px  ridge;
+ border-color:RosyBrown;/*cor borda */
+
+}
+  
+
+#display0 {
+  position: relative;
+  right: -40px;
+  top: 20px;
+     border-radius:12px 12px 12px 12px;
+     border: 6px  ridge;
+   width: 460px;
+    height: 300px; 
+   color: red;
+   text-align: center-right;
+   font-family: arial;
+   text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           background-color: #00FF00;
+           font-size:  17px; 
+font-family:Jazz LET, fantasy;
+}
+#painel_principal_superior {
+  position: relative;
+  right: -10px;/*recuo da direita para a esquerda*/
+  top: 0px;/*recuo de parte de cima*/
+    border-radius: 35px;/*aredondamento canto canvas*/
+    border: 6px  ridge;/*cor borda*/
+    width: 574px;/*largura*/
+    height: 376px;/*altura*/ 
+     border-color:RosyBrown;/*cor borda */
+   color: DimGrey;/*cor texto*/
+   text-align: center-right;
+   font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+ 
+           background-color:  LightGray;/*cor fundo*/
+           font-size:  20px;/*tamanho caixa texto*/ 
+}
+
+#painel_botoes{
+ position: relative;
+  right: -10px;
+  top: 1px;
+    border: 4px  ridge;/*estilo borda */
+    border-radius: 35px;/*angulo borda*/
+    width: 550px;
+    height: 520px; 
+  text-shadow: #600 1px 2px 5px;
+   color: DimGrey;/*cor borda */
+    border-color:RosyBrown;/*cor borda */
+   text-align: center-right;
+     font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           font-size:  20px;
+      background-color:#BEBEBE;/*cor fundo  */
+
+
+}
+
+
+ #logo{
+ position: relative;
+  right: 0px;
+  top: -20px;
+ background-size:contain;
+ background-repeat:no-repeat;
+  width: 40px;
+  height: 40px; 
+   border:transparent;
+}
+#img01{
+ position: relative;
+  right: 60px;
+  top: 20px;
+ background-size:contain;
+ background-repeat:no-repeat;
+ background-image:url(https://img.filipeflop.com/files/download/automacao/lampada_desligada.png);
+  width: 40px;
+  height: 40px; 
+ border:transparent;
+}
+
+#img02{
+ position: relative;
+  right: -118px;
+  top: -40px;
+ background-size:contain;
+ background-repeat:no-repeat;
+ background-image:url(https://img.filipeflop.com/files/download/automacao/lampada_desligada.png);
+  width: 40px;
+  height: 40px; 
+ border:transparent;
+}
+ 
+ #img03{
+ position: relative;
+  right: 50px;
+  top: 08px;
+ background-size:contain;
+ background-repeat:no-repeat;
+ background-image:url(https://img.filipeflop.com/files/download/automacao/lampada_desligada.png);
+  width: 40px;
+  height: 40px; 
+ border:transparent;
+}
+
+ #img04{
+ position: relative;
+  right: -130px;
+  top: -50px;
+ background-size:contain;
+ background-repeat:no-repeat;
+ background-image:url(https://img.filipeflop.com/files/download/automacao/lampada_desligada.png);
+  width: 40px;
+  height: 40px; 
+ border:transparent;
+}
+ 
+ #img05{
+ position: relative;
+  right: -260px;
+  top: -110px;
+ background-size:contain;
+ background-repeat:no-repeat;/* quarto casal */
+ background-image:url(https://img.filipeflop.com/files/download/automacao/lampada_desligada.png);
+  width: 50px;
+  height: 50px; 
+ border:transparent;
+}
+#img06{
+ position: relative;
+  right: -20px;
+  top: -110px;
+ background-size:contain;
+ background-repeat:no-repeat;/* quarto solteiro */
+ background-image:url(https://img.filipeflop.com/files/download/automacao/lampada_desligada.png);
+  width: 50px;
+  height: 50px; 
+ border:transparent;
+}
+#img07{
+ position: relative;
+  right: 85px;
+  top: -250px;
+ background-size:contain;
+ background-repeat:no-repeat;/*chuveiro */
+ background-image:url(https://img.filipeflop.com/files/download/automacao/lampada_desligada.png);
+  width: 30px;
+  height: 30px; 
+ border:transparent;
+}
+#img08{
+ position: relative;
+  right: 270px;
+  top: -175px;
+ background-size:contain;
+ background-repeat:no-repeat;/*cozinha*/
+ background-image:url(https://img.filipeflop.com/files/download/automacao/lampada_desligada.png);
+  width: 50px;
+  height: 50px; 
+ border:transparent;
+}
+#estado_lampada{
+position:relative;
+ right: -160px;
+ top:-10px;
+    text-align:high;
+  text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   color: DimGrey;/*cor borda */
+  width:100px;
+  height:50px;
+   border:transparent;
+}
+#estado_lampada1{
+position:absolute;
+ right: 88px;
+ top:-1px;
+    text-align:high;
+  text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   color: DimGrey;/*cor borda */
+     font-size:  15px;
+    width:100px;
+  height:50px;
+   border:transparent;
+}
+#estado_lampada2{
+    text-align:high;
+  text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   color: DimGrey;/*cor borda */
+     font-size:  15px;
+    width:100px;
+  height:50px;
+   border:transparent;
+}
+#estado_lampada3{
+    text-align:left;
+  text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   color: DimGrey;/*cor borda */
+     font-size:  15px;
+     width:100px;
+  height:50px;
+   border:transparent;
+}
+#estado_lampada4{
+position:relative;
+ right: 11px;
+ top:-20px;
+    text-align:left;
+  text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   color: DimGrey;/*cor borda */
+     font-size:  15px;
+   width:100px;
+  height:50px;
+   border:transparent;
+}
+#estado_lampada5{
+position:relative;
+ right: -30px;
+ top:-20px;
+    text-align:left;
+  text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   color: DimGrey;/*cor borda */
+     font-size:  15px;
+  width:100px;
+  height:50px;
+   border:transparent;
+}
+#estado_lampada6{
+
+    text-align:left;
+  text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   color: DimGrey;/*cor borda */
+     font-size:  15px;
+   width:100px;
+  height:50px;
+   border:transparent;
+}
+#estado_lampada7{
+    text-align:left;
+  text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   color: DimGrey;/*cor borda */
+     font-size:  15px;
+   width:100px;
+  height:50px;
+   border:transparent;
+}
+
+#painel_principal_inferior{
+ position: relative;
+  right: -10px;
+  top: 10px;
+    border: 6px  ridge;;/*estilo borda */
+    border-radius: 35px;/*angulo borda*/
+    border-color:RosyBrown;
+    width: 574px;
+    height: 555px; 
+  text-shadow: #600 1px 2px 5px;
+   color: DimGrey;/*cor borda */
+   text-align: center-right;
+     font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           font-size:  17px;
+      background-color:LightGray;/*cor fundo  */
+
+
+}
+#evento_botao{
+position: relative;
+    right: 10px;
+    top: 11px;
+    }
+#evento_botao1{
+position: relative;
+    right: -170px;
+    top: -47px;
+    }
+    
+    
+ #evento_botao2{
+position: relative;
+    right: 2px;
+    top: -1px;
+    }
+
+ #evento_botao3{
+position: relative;
+    right: 4px;
+    top: -1px;
+    }
+    
+  #evento_botao4{
+position: relative;
+    right: -43px;
+    top: -1px;
+    }
+    
+    
+ #evento_botao5{
+position: relative;
+    right: -35px;
+    top: -1px;
+    }
+  
+ #evento_botao6{
+position: relative;
+    right: 235px;
+    top: 50px;
+    }
+    
+  #evento_botao7{
+position: relative;
+    right: -80px;
+    top: -10px;
+    }
+  
+    
+#botao
+{
+position: relative;
+    right: -10px;
+    top: 20px;
+   width: 200px;
+    height: 200px;
+    }
+#botao1
+{
+position: relative;
+    right: 1px;
+    top: -50px;
+   width: 344px;
+    height: 200px;
+    }
+ #hora
+{
+right: 0px;
+    top: 0px;
+   width: 344px;
+    height: 40px;
+    text-align:left;
+}  
+#horario
+{
+   text-align:left;
+    background-color:transparent;
+  text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+   color: DimGrey;/*cor borda */
+     font-size:  40px;
+     font-family:Jazz LET, fantasy;
+}
+
+#button{
+    position: relative;
+    right: -80px;
+    top: 0px;
+   width: 200px;
+    height: 200px;
+}
+
+.button{
+
+    -moz-box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  -webkit-box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  background-color:#44c767;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:22px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 17px #81a37c;
+    width: 70px;
+    text-align:center;
+    font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           font-size:  22px;
+ background-color:#00BFFF;
+}
+
+.button:hover {
+  background-color:#8B0000;
+}
+.button:active {
+  position:relative;
+    background-color:#00BFFF;
+  top:1px;
+}
+#button1{
+    position: relative;
+    right: -80px;
+    top: 0px;
+   width: 200px;
+    height: 200px;
+}
+
+.button1{
+
+    -moz-box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  -webkit-box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  background-color:#44c767;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:22px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 17px #81a37c;
+    width: 70px;
+    text-align:center;
+    font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           font-size:  22px;
+ background-color:#00BFFF;
+}
+
+.button1:hover {
+  background-color:#8B0000;
+}
+.button1:active {
+  position:relative;
+    background-color:#00BFFF;
+  top:1px;
+}
+#button2{
+    position: relative;
+    right: -200px;
+    top: 0px;
+   width: 200px;
+    height: 200px;
+}
+
+.button2{
+
+    -moz-box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  -webkit-box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  background-color:#44c767;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:22px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 17px #81a37c;
+    width: 70px;
+    text-align:center;
+    font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           font-size:  22px;
+ background-color:#00BFFF;
+}
+
+.button2:hover {
+  background-color:#8B0000;
+}
+.button2:active {
+  position:relative;
+    background-color:#00BFFF;
+  top:1px;
+}
+  
+  #button3{
+    position: absolute;
+    right: -300px;
+    top: 0px;
+   width: 200px;
+    height: 200px;
+}
+
+.button3{
+
+    -moz-box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  -webkit-box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  box-shadow:inset -1px 7px 11px 7px #3dc21b;
+  background-color:#44c767;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:22px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 17px #81a37c;
+    width: 70px;
+    text-align:center;
+    font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+           font-size:  22px;
+ background-color:#00BFFF;
+}
+
+.button3:hover {
+  background-color:#8B0000;
+}
+.button3:active {
+  position:relative;
+    background-color:#00BFFF;
+  top:1px;
+}
+#amostra
+{
+position: absolute;
+  right: 8px;
+    top: 40px;
+   border-radius:12px 12px 12px 12px;
+     border: 6px  ridge;
+  width: 180px;
+    height: 185px;
+}
+
+
+#tabela
+{
+ width: 100%;
+ height:185px;
+ border: 4px  ridge;/*estilo borda */
+ border-radius: 10px;/*angulo borda*/
+  font-size:  15px;
+   border-color:#E6E6FA;/*cor borda */
+    background-color:#F0FFFF;/*cor fundo  */
+    color: white;/*cor borda */
+}
+
+    html {
+     font-family: Arial;
+     display: inline-block;
+     margin: 0px auto;
+     text-align: center;
+    }
+ 
+    
+     h5 { font-size: 1.0rem; 
+}
+    p { font-size: 4.0rem; color: blue; }
+    .units { font-size: 1.0rem; color:#838B8B;}
+#temperaturec
+{
+color:#FFFFE0;
+  font-family: arial;
+ text-shadow: #000 1px 1px 1px, #FFF -1px -1px 1px;
+  font-size:  70px;
+}
+
+
+    .ds-labels{
+      font-size: 1.5rem;
+      vertical-align:middle;
+      padding-bottom: 17px;
+      color:#FFFFE0;
+    }
+    
+  #botoes_controle
+  {
+width: 98%;
+height:250px;
+border: 5px  ridge;/*cor borda*/
+border-top-left-radius:     35px 35px;
+border-top-right-radius:    35px 35px;
+border-bottom-right-radius: 10px 10px;
+border-bottom-left-radius:  10px 10px;
+border-color:RosyBrown;/*cor borda */
+background-color:#E0FFFF;
+  }
+  #foto_layt
+  {
+  width: 98%;
+height:250px;
+border: 5px  ridge;/*cor borda*/
+border-top-left-radius:     10px 10px;
+border-top-right-radius:    10px 10px;
+border-bottom-right-radius: 35px 35px;
+border-bottom-left-radius:  35px 35px;
+border-color:RosyBrown;/*cor borda */
+background-color:#E6E6FA;
+  }
+  #img
+  {
+  width:100%;
+height:100%;
+ background-size:538px 250px;
+ background-repeat:no-repeat;
+ background-image:url("https://i.ibb.co/k9VGMs2/Ello-Home-Club-Itaquera-32-recortada.jpg");
+ border-top-left-radius:     35px 35px;
+border-top-right-radius:    35px 35px;
+border-bottom-right-radius: 35px 35px;
+border-bottom-left-radius:  35px 35px;
+  }   
